@@ -3,11 +3,16 @@ layout: default
 title: Home
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div id="home" class="page">
+
+  <p class="centre">
+    <strong>Hello world</strong><br />
+    <b><i>Welcome to my website</i></b><br />
+    <em>I kiss you</em>
+  </p>
+
+  <h2>Latest blog Posts</h2>
+
+  <p>Quick preview of the latest post, if I can figure that out</p>
+
 </div>
